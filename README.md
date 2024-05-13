@@ -1,5 +1,8 @@
 This repository for the compression of three Convolutional Neural Network models—Lenet, Alexnet, and VGG—for classifying marine animal datasets. The compressed models presented in this project not only maintain the same accuracy as the original models but also significantly reduce their memory foot-print. This work was implemented for **Deep learning** final project at NYU Tandon 2024.
-
+# Authors:
+- Raksi Kopo (rk4585@nyu.edu)
+- Duc Anh Van (dv2223@nyu.edu)
+- Remon Roshdy (rr3531@nyu.edu)
 # Deep Compression
 Compressing Convolutional Neural Network models with pruning, trained quantization
 It provides an implementation of the two core methods:
