@@ -12,11 +12,11 @@ It provides an implementation of the two core methods:
 
 These are the main results on the [Sea animal](https://www.kaggle.com/datasets/vencerlanz09/sea-animals-image-dataste) datasets
 
-| Network       | ACC      | Compression Rate (Ours) | Compression Rate (Han et al.) |
-|--------------------------|--------------------|--------------------------|-------------------------|-------------------------------|
-| Lenet5        | 2.0%               | 1.64%                    | -                       | -                             |
-| Alexnet       | 1.8%               | 1.58%                    | **48X**                 | 40X                           |
-| VGG16            | 0.83%              | 0.8%                     | -                       | -                             |
+- Our experiments revealed the effectiveness of memory and computationally efficient techniques for CNNs in marine animal classification.
+- Model pruning led to reductions in model size across LeNet, AlexNet, and VGG16, while maintaining competitive accuracy.
+- Fine-tuning pruned models demonstrated their adaptability, with accuracy levels successfully restored post-pruning.
+- Quantization proved promising for model compression, achieving significant reductions in size with minimal impact on accuracy.
+- The most optimized model is the Quantized AlexNet, which has been reduced to 57.1 MB (four times smaller than the original) and maintains good accuracy (72\%). 
 
 ## Requirements
   - pytorch
